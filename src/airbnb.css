@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav--logo {
+    max-width: 100px;
+}
+
+.hero--img {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    padding: 30px ;
+}
+
+.hero--text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.hero--text > h1 {
+    font-size: 25px;
+}
+
+.hero--text > p {
+    /* Join unique interactive activities led by one-of-a-kind hosts—all without leaving home. */
+    width: 320px;
+    height: 56px;
+    left: 36px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+
+
+    color: #222222;
+}
